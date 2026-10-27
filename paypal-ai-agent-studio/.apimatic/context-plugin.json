@@ -1,0 +1,24 @@
+{
+  "plugin": "paypaldev/server-sdk-context-plugin-preview",
+  "installCommand": "npx context-plugins install https://github.com/paypaldev/server-sdk-context-plugin-preview",
+  "sdkDistribution": {
+    "python": "paypal-server-sdk==2.4.0",
+    "typescript": "@paypal/paypal-server-sdk==2.5.0"
+  },
+  "skillsApplied": [
+    "python-getting-started",
+    "python-client-initialization",
+    "python-authentication",
+    "python-calling-endpoints",
+    "python-models",
+    "python-error-handling",
+    "python-configuration-resilience",
+    "python-testing"
+  ],
+  "verifiedControllers": [
+    "OrdersController (/v2/checkout/orders)",
+    "PaymentsController (/v2/payments/captures/{capture_id}/refund)",
+    "SubscriptionsController (/v1/billing/subscriptions)",
+    "OAuthAuthorizationController (/v1/oauth2/token)"
+  ]
+}

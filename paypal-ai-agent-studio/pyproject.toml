@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paypal-ai-agent-studio"
+version = "1.0.0"
+description = "Autonomous Commerce & Dispute Resolution Engine built with APIMatic Context Plugin for PayPal & paypal-server-sdk 2.4.0"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+dependencies = [
+    "paypal-server-sdk==2.4.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
