@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paypal-agent-studio"
+version = "1.0.0"
+description = "PayPal Agentic Commerce Studio: Policy-Gated Order Ledger"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Kazutoshi Hayashi (LUMA LAB)"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
